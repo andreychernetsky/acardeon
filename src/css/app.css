@@ -1,0 +1,46 @@
+.wrapper{
+	
+	
+}
+body{
+	
+	
+background: url(https://s3-frame.ozstatic.by/1000/675/667/10/10667675_3.jpg)no-repeat;
+margin:0 auto;
+background-position: top center;
+
+}
+p{
+    margin:0;
+    font-size: 18px;
+	font-family: Arial;
+	text-indent: 12px;
+	text-align:center;
+	color:#000;
+}
+span {
+	color:#fff;
+}
+#accordion {
+	background: #fff;
+    width:100%;
+    width: 600px;
+    display: flex;
+    flex-direction:column;
+    margin:255px auto;
+}
+.accordion-title {
+	background: #222;
+	text-align: center;
+	padding: 10px;
+	font-weight: bolder;
+	font-size: 28px;
+	font-family: Arial;
+}
+.accordion-title.active+.accordion-cont{
+	display: block;
+}
+.accordion-cont{
+	display:none;
+}
+
